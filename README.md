@@ -1,4 +1,10 @@
 # courses-ReSTAPI
 A ReST API created for CRUD operations on resources for various programming languages, frameworks and technologies.
 
-`Planning to add more features and deploy the api soon.`
+Deployed the API on Heroku.
+
+Operations you can perform:
+
+GET 
+
+https://courses-api-spring.herokuapp.com/topics
