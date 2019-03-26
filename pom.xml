@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>org.course-api</groupId>
 	<artifactId>Course-API-url</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Course-API-url-1</name>
 	<description>Course API url for Java Brains Courses</description>
