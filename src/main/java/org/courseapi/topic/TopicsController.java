@@ -40,15 +40,15 @@ public class TopicsController {
 		}
 		
 		@RequestMapping(method=RequestMethod.PUT, value="/topics/{name}")
-		public void updateTopic(@RequestBody Topic topic,@PathVariable String id)
+		public void updateTopic(@RequestBody Topic topic,@PathVariable String name)
 		{
-			topicService.updateTopic(id,topic);
+			topicService.updateTopic(name,topic);
 		}
 		
 		@RequestMapping(method=RequestMethod.DELETE, value="/topics/{name}")
-		public void DeleteTopic(@PathVariable String id)
+		public void DeleteTopic(@PathVariable String name)
 		{
-			topicService.DeleteTopic(id);
+			topicService.DeleteTopic(name);
 		}
 		
 		
