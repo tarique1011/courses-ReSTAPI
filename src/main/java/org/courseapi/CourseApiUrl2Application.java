@@ -12,10 +12,5 @@ public class CourseApiUrl2Application {
 		SpringApplication.run(CourseApiUrl2Application.class, args);
 	}
 	
-	@RestController
-	class Controller {
-		
-	
-	}
 
 }
